@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet" type="text/css"></link>
+    <script defer src="./index.js"></script>
+    <title>Image carrousel</title>
+</head>
+<body>
+        <!-- Esto no se va a mostrar por el display:none -->
+    <div style="display:none;" class="carrousel-fame">
+
+        <img class="burger-image-1" id="1" src="./assets/burger1.png" alt="burger1">
+        <img class="burger-image-2" id="2" src="./assets/burger2.png" alt="burger2">
+        <img class="burger-image-3" id="3" src="./assets/burger3.png" alt="burger3">
+        <img class="burger-image-4" id="4" src="./assets/burger4.png" alt="burger4">
+        <img class="burger-image-5" id="5" src="./assets/burger5.png" alt="burger5">
+    
+    </div>
+
+    <div class="main-container">
+        
+        carrousel picture frame:
+        <div class="picture-frame">
+
+            <img class="visible-picture" id="1" src="./assets/burger1.png" alt="burger1">
+
+        </div>
+
+        <div class="radio-container">
+
+            <input checked type="radio" name="pictures" id="picture1">
+                <label>Pic1</label>
+            <input type="radio" name="pictures" id="picture2">
+                <label>Pic2</label>
+            <input type="radio" name="pictures" id="picture3">
+                <label>Pic3</label>
+            <input type="radio" name="pictures" id="picture4">
+                <label>Pic4</label>
+            <input type="radio" name="pictures" id="picture5">
+                <label>Pic5</label>           
+
+        </div>
+
+        <button class="previous-picture-btn">Anterior</button>
+        <button class="next-picture-btn">Siguiente</button>
+
+
+
+    </div>
+    
+</body>
+</html>
+
+
+
+ 

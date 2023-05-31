@@ -1,0 +1,53 @@
+:root{
+    --picture-frame-x: 1;
+    --picture-frame-y: 1;
+}
+
+.burger-image-1{grid-area:burger-image-1;}
+.burger-image-2{grid-area:burger-image-2;}
+.burger-image-3{grid-area:burger-image-3;}
+.burger-image-4{grid-area:burger-image-4;}
+.burger-image-5{grid-area:burger-image-5;}
+
+.main-container{border: red solid 1px;}
+
+.burger-image{
+    height:100px;
+    width:100px;
+
+}
+
+.main-container{
+    position:fixed;
+}
+
+
+.carrousel{
+
+    height:610px;
+    width:610px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+
+}
+
+.radio-container{
+    
+    opacity: 0.2;
+    border-radius:10px;
+    background-color: green;    
+    position:absolute;
+    left: 25%;
+    top: 90%;
+
+
+
+
+}
+
+/*--------------------------------*/
+
+    
+

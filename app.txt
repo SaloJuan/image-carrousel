@@ -1,0 +1,31 @@
+This one is a little more involved than the last two, so think about how you would set up the different elements within the site.  
+
+Set up a very wide div which will contain the individual “slides” of each image. By appropriately positioning that div inside a container div (which acts like a picture frame), you can choose which slide is visible at any given time.
+
+Once you have the slider positioned properly, build functions for “next” and “previous” which will advance to the next or previous slide accordingly. Make the transitions smooth using simple effects.
+
+Set up arrow buttons which activate those functions and play with cycling through the images.
+
+Add in some navigation dots at the bottom of the slides. Make a horizontal series of empty circles with CSS immediately below the slideshow. Each circle represents a slide, so whenever a new slide is activated, its corresponding circle gets filled in so you can tell where in the show you are. Make each circle link to that particular slide, so you can click on the circle and it will jump to that slide.
+
+Add a timeout which advances the slides every 5 seconds.
+
+Play around with your slideshow!
+
+                        -----------------------------------
+
+1) crear un frame que es donde se van a ver las imagenes
+2) cargar las imagenes fuera del frame
+3) la primer foto ya deberia estar cargada x defecto
+4) al avanzar en el carrusel, se debe remover la foto actual y cargar la siguiente.
+    - variable que lleve qué foto está actualmente
+    - usar remove() y appendchild()
+5) cada 5 segundos, que se dispare un evento a los botones y que eso ocasione que se vayan pasando las imagenes solas 
+
+
+
+Para los punteros
+1) un div con 5 radio buttons
+2) cada radio button vinculado a una de las 5 imagenes
+3) para cada boton deberia estar la instruccion de appendchildear al frame la imagen a mostrar.
+    Esto causaría que si estoy en el 1 y toco el 3, ese radio 3 ya tiene la fn de añadir la foto 3
